@@ -1,0 +1,7 @@
+
+<ul>
+  <h1>Dictionary page</h1>
+  <li *ngFor="let entry of dictionary">
+    <a routerLink="/details/{{entry.word}}">{{entry.word}}</a>
+  </li>
+</ul>
